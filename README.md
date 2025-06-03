@@ -6,6 +6,33 @@ This project explores the use of data science techniques to predict a person's b
 
 ## Project Structure
 
+│       date-a-scientist-checkpoint.ipynb
+│
+└───date-a-scientist-project
+    │   .gitignore
+    │   README.md
+    │
+    ├───data
+    │       profiles_eda.csv
+    │       profiles_preprocessed1.csv
+    │       X_test.csv
+    │       X_test_pca.csv
+    │       X_train.csv
+    │       X_train_pca.csv
+    │       X_val.csv
+    │       X_val_pca.csv
+    │       y_test.csv
+    │       y_train.csv
+    │       y_val.csv
+    │
+    └───notebooks
+            01_eda.ipynb
+            02.1_preprocessing1.ipynb
+            02.2_preprocessing2.ipynb
+            03_pca.ipynb
+            04.1_xgboost_no_pca.ipynb
+            04.2_xgboost_pca.ipynb
+
 - `01_eda.ipynb`: Initial exploratory data analysis.
 - `02.1_preprocessing1.ipynb`: Preprocessing Part 1 - Handling missing values, variable imputation and first cardinality reduction.
 - `02.2_preprocessing2.ipynb`: Preprocessing Part 2 - Preprocessing for classification problem, imputation, scoping the problem, second cardinality reduction, encoding and transforming variables, creating predictors and labels subsets (X and y). Creation of new variables as a combination of others.
@@ -79,3 +106,9 @@ The dataset comes from Codecademy as a Final Project for the Data Science and Ma
 - xgboost
 - pandas, numpy
 - seaborn, matplotlib
+
+## Authors and Credits
+
+This dataset was downloaded from Codecademy as the final project for the Data Science and Machine Learning career path. 
+
+Author: Nicolás David Tamajón Rivas
